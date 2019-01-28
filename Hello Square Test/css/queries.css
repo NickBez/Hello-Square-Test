@@ -1,0 +1,441 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo { margin-left: 0; float: left;}
+    .mobile-nav-icon { display: inline-block; margin-top: 45px; margin-left: 310px;}
+    .main-nav { display: none; margin-right: -480px; float: left; margin-top: 60px; margin-left: -60px;}
+    .main-nav li { margin-left: 20px; margin-bottom: 15px; display: block;}
+    .grid-container{ grid-template-columns: 150px 150px 150px 150px; margin-left: 0; margin-top: 120px;}
+    .grid-item1 { display: none;}
+    .Patagonia { width: 578px; height: 102px; font-size: 90px; line-height: 0.5; letter-spacing: -2.7px; text-align: center;}
+    .grid-item-oval-2 { display: none;}
+    .grid-item-oval-copy { display: none;}
+    .grid-item-oval-copy-2 { display: none;}
+    .grid-item3 { text-align: center; margin-left: 100px;}
+    .grid-item4 { display: none;}
+    .grid-item5 { text-align: center; grid-column: 1; margin-left: 110px; margin-bottom: 50px;}
+    .grid-item6 { margin-left: 35px;}
+    .grid-item7 { margin-left: 35px;}
+    .grid-item8 { margin-top: -70px;}
+    .image-story-1 { width: 180px; height: 180px;}
+    .image-story-2 {width: 343px; height: 268px;}
+    .image-story-3 { width: 125px; height: 163px;}
+    .grid-item9 { margin-top: 150px; margin-left: -240px; margin-bottom: 20px; text-align: center;}
+    .grid-item10 { grid-column: 3; margin-left: -75px; margin-top: 20px;}
+    .grid-item-oval-2-copy { margin-top: 225%; margin-left: 40%;}
+    .grid-item-Some-Call-Us { margin-left: 140px;}
+    .grid-item-Second-para { margin-top: 230px; margin-left: -230px;}
+    .grid-item-Third-Para { margin-left: -245px;}
+    .grid-item-Fourth-Para { margin-left: -230px;}
+    .grid-item-Show-Less { margin-left: -80px;}
+    .BG { height: 1645px;}
+    .grid-item12:after, .grid-item-Brands:after, .grid-item-Colour:after, .grid-item-Size:after { width: 120px;}
+    .arrow-1 { margin-left: 55px;}
+    .arrow-2 { margin-left: 49px;}
+    .arrow-3 { margin-left: 69px;}
+    .Ted-Baker-Woken-Fabr { font-size: 10px;}
+    .margin { margin-top: -265px;}
+    .margin-copy { margin-top: -280px;}
+    .Mask { width: 100px; height: 148px; margin-top: -152px;}
+    .grid-item-rug-info { margin-top: -100px; margin-left: -55px; display: none; width: 100px; height: 148px;}
+    .Hand-Knotted-Wool-RF { font-size: 7px;}
+    .Rectangle-17-Copy-4 { width: 100px; height: 4px;}
+    .grid-item15 { margin-left: 0;}
+    .grid-item16 {  margin-left: -30px;}
+    .grid-item17 {  margin-left: -60px;}
+    .filter-rugs-1, .filter-rugs-2, .filter-rugs-3 { width: 100px; height: 148px;}
+    .grid-item-Ndebele { margin-left: 18px;}
+    .NDEBELE, .ROYALTY, .MAKOTI { font-size: 12px; }
+    .grid-item-Voke { margin-left: 10px;}
+    .Voke-Collection, .Woven-Collection, .Ekhaya-Collection { font-size: 10px;}
+    .grid-item-Royalty { margin-left: -7px; margin-top: -44px}
+    .grid-item-Woven { margin-left: -23px; margin-top: -40px;}
+    .grid-item-Makoti { margin-left: -35px; margin-top: -55px;}
+    .grid-item-Ekhaya { margin-left: -55px; margin-top: -39px;}
+    .margin-sm-bele { margin-top: -45px;}
+    .margin-sm { margin-top: -276px;}
+    .margin-copy, .margin-copy-3, .margin-copy-4 { margin-top: -290px;}
+    .margin-sm-copy { margin-top: -348px;}
+    .grid-item-Rectangle-17-copy-4 { margin-top: 0; margin-left: -58px;}
+    .underline-margin { margin-top: -220px;}
+    .grid-item-Rectangle-16 { margin-left: 0;}
+    .rug-image-1 {display: none;}
+    .grid-item-Why-Our-Rugs { margin-left: -195px;}
+    .grid-item-Why-Para { grid-column: 2; text-align: center; margin-left: -80px;}
+    .grid-item-Fast-Affordable {grid-column: 1;}
+    .grid-item-Quality-Handmade {grid-column: 3;}
+    .grid-item-Our-Thoughts { margin-left: -5px; margin-top: 100px;}
+    .grid-item-blog1 { grid-column: 2;}
+    .blog-1 { width: 275px; height: 210px;}
+    .grid-item-Rectangle-17 { grid-column: 2; margin-top: -900px;}
+    .grid-item-blog1-text { grid-column: 2; margin-top: -860px;}
+    .grid-item-blog2 { margin-left: 0; margin-top: 220px;}
+    .grid-item-Rectangle-17-Copy { margin-left: 0; margin-top: -465px;}
+    .grid-item-blog2-text { margin-left: 0; margin-top: -420px;}
+    .blog-2 { width: 275px; height: 210px;}
+    .grid-item-blog3 { grid-column: 2; margin-left: 0; margin-top: 220px;}
+    .blog-3 { width: 275px; height: 210px;}
+    .grid-item-Rectangle-17-Copy-2 { grid-column: 2; margin-left: 0;}
+    .grid-item-blog3-text { grid-column: 2; margin-left: 0;}
+    .overlay { width: 275px; height: 210px; margin-top: -215px;}
+    .grid-item-blog-button { grid-column: 3; margin-left: 20px; margin-top: 390px;}
+    .grid-item-Rectangle-17-copy-3 { grid-column: 2; margin-left: 0; margin-top: 20px;}
+    .Rectangle-17-Copy-3 { width: 275px;}
+    .instagram-image { width: 600px; margin-left: 110px;}
+    .grid-item-instagram-image {margin-top: 17px;}
+    .FOLLOW-US-ON-INSTAGR { font-size: 20px;}
+    .grid-item-Instagram-Caption { margin-left: -30px; margin-top: 125px;}
+    .oakrugs { font-size: 20px;}
+    .Rectangle-22 { margin-top: -88px;}
+    .logo-footer { margin-left: 150px;}
+    .grid-item-Oak-Pty-Ltd { margin-left: 270px;}
+    .grid-item-Stay-in-Touch { display: none;}
+    .grid-item-textbox { display: none;}
+    .grid-item-email { display: none;}
+    .grid-item-button { display: none;}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+    .logo { margin-left: 0; }
+    .main-nav { margin-top: -95px; float: none; margin-left: 270px; margin-right: 0;}
+    .grid-container{ grid-template-columns: 192px 192px 192px 192px; margin-left: 0;}
+    .grid-item2 { margin-top: 20px; margin-left: 80px;}
+    .Patagonia { font-size: 100px; text-align: center;}
+    .grid-item3 { margin-left: 170px; margin-top: -25px;}
+    .Fusce-vehicula-dolor { text-align: center;}
+    .grid-item4 { grid-column: 3; margin-left: -80px; margin-top: 120px;}
+    .grid-item-oval-2 { grid-column: 2; margin-top: 370px; margin-left: 315px;}
+    .hero-image-1 { width: 500px; height: 329px;}
+    .hero-image-2 { width: 500px; height: 329px;}
+    .grid-item1 { margin-left: 120px; margin-top: 500px;}
+    .grid-item-oval-copy { display: none;}
+    .grid-item-oval-copy-2 { display: none;}
+    .grid-item5 { margin-left: -10px; margin-top: 440px;}
+    .Every-journey-begins { text-align: center;}
+    .grid-item6 { margin-left: 50px;}
+    .grid-item7 { margin-top: 30px; margin-left: 55px;}
+    .grid-item8 { margin-top: -55px; margin-left: -50px;}
+    .image-story-1 { width: 160px; height: 160px;}
+    .image-story-2 { width: 220px; height: 243px;}
+    .image-story-3 { width: 140px; height: 165px;}
+    .grid-item9 { margin-left: -70px; margin-top: 10px;}
+    .grid-item10 { margin-left: -68px; margin-top: 40px;}
+    .grid-item-oval-2-copy { margin-top: 206.5%; margin-left: 43.55%;}
+    .grid-item-Some-Call-Us { margin-left: 50px; margin-top: -50px;}
+    .grid-item-Second-para { margin-top: 150px; margin-left: -120px;}
+    .grid-item-Third-Para { margin-left: -132px;}
+    .grid-item-Fourth-Para { margin-left: -120px;}
+    .size { width: 365px;}
+    .grid-item-Show-Less { margin-left: -120px;}
+    .grid-item11 { margin-top: 230px; margin-left: 20px;}
+    .grid-item12:after, .grid-item-Brands:after, .grid-item-Colour:after, .grid-item-Size:after { width: 120px;}
+    .arrow-1 { margin-left: 55px;}
+    .arrow-2 { margin-left: 50px;}
+    .arrow-3 { margin-left: 70px;}
+    .Ted-Baker-Woken-Fabr { font-size: 13px;}
+    .filter-rugs-1 { width: 150px; height: 222px;}
+    .filter-rugs-2 { width: 150px; height: 222px;}
+    .filter-rugs-3 { width: 150px; height: 222px;}
+    .grid-item15 { margin-left: -30px;}
+    .grid-item16 { margin-left: -70px;}
+    .grid-item17 { margin-left: -110px;}
+    .Mask { width: 150px; height: 222px; margin-top: -227px;}
+    .Hand-Knotted-Wool-RF { font-size: 12px; width: 150px; height: 190px}
+    .grid-item-rug-info { margin-top: -200px; margin-left: -105px; width: 150px; height: 190px;}
+    .margin-sm-copy { margin-top: -380px;}
+    .margin { margin-top: -203.5px;}
+    .NDEBELE, .ROYALTY, .MAKOTI { font-size: 14px; }
+    .Voke-Collection, .Woven-Collection, .Ekhaya-Collection { font-size: 13px;}
+    .grid-item-Ndebele { margin-left: 10px;}
+    .grid-item-Voke { margin-left: -5px;}
+    .grid-item-Royalty { margin-left: -25px; margin-top: -48px;}
+    .grid-item-Woven { margin-left: -48px;}
+    .grid-item-Makoti { margin-left: -65px; margin-top: -65px;}
+    .grid-item-Ekhaya { margin-left: -90px;}
+    .margin-copy, .margin-copy-3, .margin-copy-4 { margin-top: -220px;}
+    .Rectangle-17-Copy-4 { width: 150px;}
+    .margin-sm {margin-top: -200px;}
+    .grid-item-Rectangle-17-copy-4 { margin-left: -105px; margin-top: 0; width: 150px;}
+    .underline-margin { margin-top: -150px;}
+    .Rectangle-16 { width: 595px; height: 350px;}
+    .rug-image-1 { width: 350px; height: 253px;}
+    .grid-item-Why-Our-Rugs { margin-left: -20px; margin-top: 168px;}
+    .grid-item-Why-Para { margin-top: -220px; margin-left: -15px;}
+    .Why-Choose-Us-Para { width: 300px; font-size: 14px;}
+    .grid-item-Fast-Affordable { margin-left: -16px; margin-top: -130px;}
+    .grid-item-Quality-Handmade { margin-left: -20px; margin-top: -130px;}
+    .grid-item-Our-Thoughts { margin-left: 20px;}
+    .blog-1 { width: 200px; height: 153px;}
+    .blog-2 { width: 200px; height: 153px;}
+    .blog-3 { width: 200px; height: 153px;}
+    .grid-item-blog2 { margin-left: 60px;}
+    .grid-item-blog3 { margin-left: 120px;}
+    .overlay { width: 200px; height: 153px; margin-top: -157px;}
+    .grid-item-blog-button { margin-left: 25px; margin-top: 190px;}
+    .grid-item-Rectangle-17-Copy { margin-left: 60px;}
+    .grid-item-Rectangle-17-Copy-2 { margin-left: 120px;}
+    .Lorem-ipsum-dolor-si-Copy-3 { width: 210px;}
+    .grid-item-blog2-text { margin-left: 60px;}
+    .Lorem-ipsum-dolor-si-Copy { width: 210px;}
+    .grid-item-blog3-text { margin-left: 120px;}
+    .Lorem-ipsum-dolor-si-Copy-2 { width: 210px;}
+    .grid-item-Rectangle-17-copy-3 { margin-top: 240px;}
+    .Rectangle-17-Copy-3 { width: 200px;}
+    .instagram-image { width: 767px; height: 153px; margin-left: 120px;}
+    .grid-item-Instagram-Caption { margin-top: 210px; margin-left: 0; height: 20px;}
+    .logo-footer { margin-left: 130px;}
+    .grid-item-Oak-Pty-Ltd { margin-top: -60px; margin-left: 280px;}
+    .grid-item-Stay-in-Touch { margin-left: -230px;}
+    .grid-item-textbox { margin-left: -110px; margin-top: -105px;}
+    .grid-item-email { margin-left: -90px; margin-top: -128px;}
+    .grid-item-button { margin-left: 2px; margin-top: -100px;}
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /*.BG { height: 1500px;}*/
+    .logo { margin-left: 47px;}
+    .main-nav { margin-left: 470px;}
+    .grid-container{ grid-template-columns: 248px 248px 248px 248px; margin-left: 43px;}
+    .Patagonia { font-size: 110px;}
+    .grid-item2 { margin-top: 50px; margin-left: 0;}
+    .grid-item1 { margin-left: 450px; margin-top: 80px;}
+    .hero-image-1 { width: 525px; height: 345px;}
+    .hero-image-2 { width: 525px; height: 345px;}
+    .Fusce-vehicula-dolor { text-align: left;}
+    .grid-item3 { margin-left: 40px; margin-top: -60px;}
+    .grid-item4 { grid-column: 1; margin-left: 44px; margin-top: 0;}
+    .grid-item-oval-2 { margin-top: 383px; margin-left: 26px;}
+    .grid-item5 { margin-top: 200px;}
+    .Every-journey-begins { text-align: left;}
+    .image-story-1 { width: 227px; height: 227px;}
+    .image-story-2 { width: 350px; height: 386px;}
+    .image-story-3 { width: 220px; height: 257px;}
+    .grid-item6 { margin-left: 35px; margin-top: 50px;}
+    .grid-item7 { margin-top: 100px; margin-left: 40px;}
+    .grid-item8 { margin-left: -115px; margin-top: -75px;}
+    .grid-item9 { margin-left: -90px; margin-top: 25px; margin-bottom: 80px;}
+    .grid-item10 { margin-top: 80px;}
+    .grid-item-oval-2-copy { margin-top: 165.5%; margin-left: 45%;}
+    .grid-item-Second-para { margin-top: 0; margin-left: -90px;}
+    .grid-item-Third-Para { margin-left: -100px;}
+    .grid-item-Fourth-Para { margin-left: -90px;}
+    .size { width: 419px;}
+    .grid-item-Show-Less { margin-left: -90px;}
+    .grid-item12:after, .grid-item-Brands:after, .grid-item-Colour:after, .grid-item-Size:after { width: 160px;}
+    .arrow-1 { margin-left: 95px;}
+    .arrow-2 { margin-left: 90px;}
+    .arrow-3 { margin-left: 110px;}
+    .Ted-Baker-Woken-Fabr { font-size: 16px;}
+    .margin { margin-top: -206.5px;}
+    .grid-item15 { margin-left: -60px;}
+    .grid-item16 { margin-left: -80px;}
+    .grid-item17 { margin-left: -100px;}
+    .filter-rugs-1 { width: 220px; height: 326px;}
+    .filter-rugs-2 { width: 220px; height: 326px;}
+    .filter-rugs-3 { width: 220px; height: 326px;}
+    .Mask { width: 220px; height: 326px; margin-top: -330px;}
+    .Hand-Knotted-Wool-RF { font-size: 13px; width: 220px; height: 326px;}
+    .grid-item-rug-info { margin-top: -210px; margin-left: -92px;}
+    .grid-item-Ndebele { margin-left: 15px;}
+    .grid-item-Royalty { margin-left: -5px; margin-top: -48px;}
+    .grid-item-Makoti { margin-left: -15px;}
+    .grid-item-Voke { margin-left: -1px;}
+    .grid-item-Woven { margin-left: -30px;}
+    .grid-item-Ekhaya { margin-left: -42px;}
+    .Rectangle-17-Copy-4 { width: 220px;}
+    .grid-item-Rectangle-17-copy-4 { margin-left: -98px;}
+    .margin-copy, .margin-copy-4 { margin-top: -120px;}
+    .margin-copy-3 {margin-top: -118px;}
+    .margin-sm { margin-top: -97px;}
+    .underline-margin { margin-top: -40px;}
+    .margin-copy-2 { margin-top: -110px;}
+    .Rectangle-16 { width: 895px; height: 420px;}
+    .rug-image-1 { width: 475px; height: 343px;}
+    .grid-item-Why-Our-Rugs { margin-top: 200px;}
+    .grid-item-Why-Para { margin-top: -250px; margin-left: 0;}
+    .grid-item-Fast-Affordable { margin-top: -150px;}
+    .grid-item-Quality-Handmade { margin-left: -70px; margin-top: -150px;}
+    .grid-item-Our-Thoughts { margin-top: 134px;}
+    .grid-item-blog-button { margin-left: -30px;}
+    .grid-item-Rectangle-17-copy-3 { margin-left: -141px;}
+    .Lorem-ipsum-dolor-si-Copy { width: 252px;}
+    .Lorem-ipsum-dolor-si-Copy-2 { width: 252px;}
+    .Lorem-ipsum-dolor-si-Copy-3 { width: 252px;}
+    .instagram-image { width: 991px; height: 198px;}
+    .grid-item-instagram-image { margin-left: -183px;}
+    .grid-item-Instagram-Caption { margin-top: 250px;}
+    .grid-item-Stay-in-Touch { margin-left: -350px;}
+    .grid-item-textbox { margin-left: -220px;}
+    .grid-item-email { margin-left: -190px;}
+    .grid-item-button { margin-left: -150px;margin-top: -100px;}
+    .grid-item-Oak-Pty-Ltd { margin-left: 320px;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo { margin-left: 50px;}
+    .main-nav { margin-left: 680px;}
+    .grid-container{ grid-template-columns: 264px 264px 264px 264px; margin-left: 43px;}
+    .hero-image-1 { width: 767px; height: 504px;}
+    .hero-image-2 { width: 767px; height: 504px;}
+    .Patagonia { font-size: 118px;}
+    .grid-item2 { margin-top: 60px;}
+    .grid-item3 { margin-left: 25px;}
+    .grid-item-oval-2 { margin-top: 405px;}
+    .grid-item5 { margin-left: 170px; margin-top: 100px;}
+    .grid-item-oval-copy { display: block;}
+    .grid-item-oval-copy-2 { display: block; margin-top: 120px;}
+    .image-story-1 { width: 250px; height: 250px;}
+    .image-story-2 { width: 398px; height: 439px;}
+    .image-story-3 { width: 190px; height: 222px;}
+    .grid-item6 { margin-top: 20px; margin-left: 140px;}
+    .grid-item7 { margin-top: 70px; margin-left: 180px;}
+    .grid-item8 { margin-left: 60px; margin-top: -95px;}
+    .grid-item9 { margin-left: 50px; margin-top: 50px; margin-bottom: 0;}
+    .grid-item10 { margin-left: 55px; margin-top: 80px;}
+    .grid-item-oval-2-copy { margin-top: 140.25%; margin-left: 50%;}
+    .grid-item-Second-para { margin-left: 50px;}
+    .grid-item-Third-Para { margin-left: 40px;}
+    .grid-item-Fourth-Para { margin-left: 50px;}
+    .grid-item-Show-Less { margin-left: 50px;}
+    .grid-item-Some-Call-Us { margin-left: 190px;}
+    .filter-rugs-1 { width: 264px; height: 391px;}
+    .filter-rugs-2 { width: 264px; height: 391px;}
+    .filter-rugs-3 { width: 264px; height: 391px;}
+    .grid-item15 { margin-left: -30px;}
+    .grid-item16 { margin-left: -20px;}
+    .grid-item17 { margin-left: -10px;}
+    .grid-item-Ndebele { margin-left: 55px;}
+    .NDEBELE, .ROYALTY, .MAKOTI { font-size: 18px;}
+    .grid-item-Royalty { margin-left: 68px; margin-top: -55px;}
+    .grid-item-Makoti { margin-left: 90px; margin-top: -75px;}
+    .Voke-Collection, .Woven-Collection, .Ekhaya-Collection { font-size: 14px;}
+    .grid-item-Voke { margin-left: 45px;}
+    .grid-item-Woven { margin-left: 50px;}
+    .grid-item-Ekhaya { margin-left: 65px;}
+    .Mask { width: 264px; height: 391px; margin-top: -396px;}
+    .Hand-Knotted-Wool-RF { font-size: 16px;}
+    .grid-item-rug-info { margin-left: 10px;; margin-top: -250px;}
+    .Rectangle-17-Copy-4 { width: 264px;}
+    .grid-item-Rectangle-17-copy-4 { margin-left: -8px;}
+    .grid-item12:after, .grid-item-Brands:after, .grid-item-Colour:after, .grid-item-Size:after { width: 170px;}
+    .arrow-1 { margin-left: 105px;}
+    .arrow-2 { margin-left: 100px;}
+    .arrow-3 { margin-left: 120px;}
+    .Ted-Baker-Woken-Fabr { font-size: 18px;}
+    .margin { margin-top: -208.5px;}
+    .margin-copy, .margin-copy-3 { margin-top: -70px;}
+    .margin-copy-4 { margin-top: -70px;}
+    .margin-sm { margin-top: -48px;}
+    .margin-sm-copy { margin-top: -185px;}
+    .underline-margin { margin-top: 0;}
+    .Rectangle-16 { width: 1000px; height: 469px;}
+    .rug-image-1 { width: 520px; height: 375px; margin-top: 50px;}
+    .grid-item-Why-Our-Rugs { margin-left: 50px;}
+    .Why-Choose-Us-Para { width: 419px; font-size: 18px;}
+    .grid-item-Why-Para { margin-top: -300px; margin-left: 60px;}
+    .grid-item-Fast-Affordable { margin-left: 60px;}
+    .grid-item-Quality-Handmade { margin-left: 30px;}
+    .grid-item-Our-Thoughts { margin-left: 110px;}
+    .blog-1 { width: 300px; height: 238px;}
+    .blog-2 { width: 300px; height: 238px;}
+    .blog-3 { width: 300px; height: 238px;}
+    .grid-item-blog2 { margin-left: 100px;}
+    .grid-item-blog3 { margin-left: 200px;}
+    .grid-item-Rectangle-17 { margin-top: -35px;}
+    .grid-item-Rectangle-17-Copy { margin-left: 100px; margin-top: -35px;}
+    .grid-item-Rectangle-17-Copy-2 { margin-left: 200px; margin-top: -35px;}
+    .overlay { width: 300px; height: 238px; margin-top: -238px;}
+    .grid-item-blog-button { margin-left: 125px; margin-top: 265px;}
+    .Lorem-ipsum-dolor-si-Copy-3, .Lorem-ipsum-dolor-si-Copy, .Lorem-ipsum-dolor-si-Copy-2 { width: 300px;}
+    .grid-item-blog2-text { margin-left: 100px;}
+    .grid-item-blog3-text { margin-left: 200px;}
+    .Rectangle-17-Copy-3 { width: 300px;}
+    .grid-item-Rectangle-17-copy-3 { margin-left: -75px; margin-top: 200px;}
+    .instagram-image { width: 1199px; height: 240px;}
+    .grid-item-Instagram-Caption { margin-top: 260px; margin-left: 75px;}
+    .grid-item-button { margin-left: 120px;}
+    .grid-item-textbox { margin-left: 70px;}
+    .grid-item-email { margin-left: 100px;}
+    .grid-item-Stay-in-Touch { margin-left: -60px; margin-top: -127px;}
+    .grid-item-Oak-Pty-Ltd { margin-left: 190px; margin-top: -110px;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .logo { margin-left: 99px;}
+    .main-nav { margin-left: 850px;}
+    .grid-container{ grid-template-columns: 276px 276px 276px 276px; margin-left: 128px;}
+    .hero-image-1 {width: 864px; height: 568px;}
+    .hero-image-2 {width: 864px; height: 568px;}
+    .grid-item1 { margin-left: 448px;}
+    .Patagonia { font-size: 120px;}
+    .grid-item2 { margin-top: 65px;}
+    .grid-item3 { margin-left: 15px;}
+    .grid-item4 { margin-left: 15px;}
+    .grid-item-oval-2 { margin-left: 0; margin-top: 413px;}
+    .grid-item-oval-copy-2 { margin-top: 190px;}
+    .grid-item5 { margin-top: 114px;}
+    .image-story-1 { width: 266px; height: 266px;}
+    .image-story-2 { width: 429px; height: 473px;}
+    .image-story-3 { width: 211px; height: 249px;}
+    .grid-item6 { margin-top: 19px; margin-left: 70px;}
+    .grid-item7 { margin-left: 160px;}
+    .grid-item8 { margin-left: 25px; margin-top: -105px;}
+    .grid-item9 { margin-left: 45px; margin-top: 40px;}
+    .grid-item10 { margin-top: 10px; margin-left: 45px;}
+    .grid-item-oval-2-copy { margin-top: 126.25%; margin-left: 45%;}
+    .grid-item-Some-Call-Us { margin-left: 155px;}
+    .grid-item-Second-para, .grid-item-Fourth-Para, .grid-item-Show-Less { margin-left: 48px;}
+    .grid-item-Third-Para { margin-left: 38px;}
+    .filter-rugs-1 { width: 276px; height: 408px;}
+    .filter-rugs-2 { width: 276px; height: 408px;}
+    .filter-rugs-3 { width: 276px; height: 408px;}
+    .grid-item11 { margin-left: -30px;}
+    .grid-item12:after, .grid-item-Brands:after, .grid-item-Colour:after, .grid-item-Size:after { width: 178px;}
+    .arrow-1 { margin-left: 115px;}
+    .arrow-2 { margin-left: 110px;}
+    .arrow-3 { margin-left: 130px;}
+    .NDEBELE, .ROYALTY, .MAKOTI { font-size: 20px;}
+    .Voke-Collection, .Woven-Collection, .Ekhaya-Collection { font-size: 15px;}
+    .Mask { width: 276px; height: 408px; margin-top: -412px;}
+    .mask-margin { margin-top: -452px;}
+    .Hand-Knotted-Wool-RF { font-size: 16px;}
+    .grid-item-rug-info { margin-left: 15px; margin-top: -260px;}
+    .grid-item-Rectangle-17-copy-4 { margin-top: 41px;}
+    .Rectangle-17-Copy-4 { width: 276px;}
+    .grid-item-Royalty { margin-top: -60px;}
+    .grid-item-Makoti { margin-top: -80px;}
+    .grid-item-Woven { margin-top: -50px;}
+    .margin { margin-bottom: 40px;}
+    .margin-copy { margin-top: -80px;}
+    .margin-copy-3 { margin-top: -80px;}
+    .margin-copy-4 { margin-top: -80px;}
+    .margin-sm { margin-top: -50px;}
+    .margin-sm-copy { margin-top: -215px;}
+    .Rectangle-16 { width: 1165px; height: 486px;}
+    .rug-image-1 { width: 566px; height: 409px; margin-top: 40px;}
+    .grid-item-Why-Our-Rugs { margin-left: 93px;}
+    .Why-Choose-Us-Para { margin-left: 40px;}
+    .grid-item-Fast-Affordable { margin-left: 95px;}
+    .grid-item-Quality-Handmade { margin-left: 45px;}
+    .grid-item-Our-Thoughts { margin-left: 145px;}
+    .blog-1 { width: 361px; height: 276px;}
+    .blog-2 { width: 361px; height: 276px;}
+    .blog-3 { width: 361px; height: 276px;}
+    .overlay { width: 361px; height: 276px; margin-top: -280px;}
+    .grid-item-blog-button { margin-left: 175px; margin-top: 300px;}
+    .Lorem-ipsum-dolor-si-Copy-3, .Lorem-ipsum-dolor-si-Copy, .Lorem-ipsum-dolor-si-Copy-2 { width: 361px;}
+    .Rectangle-17-Copy-3 { width: 361px;}
+    .grid-item-Rectangle-17-copy-3 { margin-left: -87px;}
+    .instagram-image { width: 1440px; height: 287.2px;}
+    .grid-item-instagram-image { margin-left: -300px;}
+    .grid-item-Instagram-Caption { margin-left: 65px; margin-top: 290px;}
+    .grid-item-button { margin-left: 135px;}
+    .grid-item-textbox { margin-left: 90px;}
+    .grid-item-Stay-in-Touch { margin-left: -40px;}
+    .logo-footer { margin-left: 40px;}
+    .grid-item-Oak-Pty-Ltd, .grid-item-email { margin-left: 115px;}
+}

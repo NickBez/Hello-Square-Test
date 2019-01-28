@@ -1,0 +1,1595 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+}
+html {
+    width: 1440px;
+    height: 4708px;
+}
+
+/* GRID CONTAINER SIZE */
+.grid-container {
+    display: grid;
+    grid-template-columns: 276px 276px 276px 276px;
+    grid-column-gap: 14px;
+    margin-left: 128px;
+}
+
+/* BUTTONS */
+.btn:link,
+.btn:visited {
+    
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:active {
+  width: 117px;
+  height: 49px;
+  border-radius: 24.5px;
+  background-color: #e7d2a8;
+  padding: 10px 30px;
+  
+}
+
+.btn-full:link,
+.btn-full:visited {
+    text-decoration: none;
+}
+.btn-full {
+  width: 117px;
+  height: 49px;
+  border-radius: 24.5px;
+  background-color: #e7d2a8;
+  padding: 10px 30px;
+}
+
+.Rectangle {
+  width: 117px;
+  height: 49px;
+  border-radius: 24.5px;
+  background-color: #e7d2a8;
+}
+
+/* MAIN LOGO */
+.logo {
+  width: 201px;
+  height: 151px;
+  object-fit: contain;
+  margin-left: 99px;
+}
+
+/* BACKGROUND */
+.BG {
+  width: 1440px;
+  height: 1885px;
+  background-color: #f9f7ea;
+}
+
+.BG-2 {
+  width: 1440px;
+  height: 851px;
+  background-color: #f9f7ea;
+}
+
+/* MAIN HEADING GRID */
+.grid-item2 {
+    grid-area: 1/3/1/6;
+}
+
+/* MAIN NAVIGATION */
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 55px;
+    margin-right: 175px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+
+    text-decoration: none;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #604c50;
+}
+
+/* MOBILE NAVIGATION */
+
+.mobile-nav-icon {
+    margin-left: 150px;
+    margin-top: -10px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+.mobile-nav-icon i {
+    font-size: 300%;
+    color: #242635;
+}
+
+/* HERO IMAGES */
+.hero-image-1 {
+  width: 864px;
+  height: 568px;
+  object-fit: contain;
+}
+
+.hero-image-2 {
+  width: 864px;
+  height: 568px;
+  object-fit: contain;
+  display: none;
+}
+
+.grid-item1 {
+    grid-column: 2 / span 3;
+    margin-left: 448px;
+    position: absolute;
+}
+
+.Patagonia {
+  width: 578px;
+  height: 102px;
+  font-family: 'Noto Serif TC';
+  font-size: 120px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.85;
+  letter-spacing: -2.7px;
+  color: #0a0a0a;
+}
+
+/* MAIN HEADING */
+.grid-item2 {
+    grid-column: 1 / span 2;
+    position: relative;
+    z-index: 9999;
+    margin-top: -18px;
+}
+
+/* NAVIGATION LIST ITEMS */
+.About {
+  width: 41px;
+  height: 23px;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #242635;
+}
+
+.Products {
+  width: 61px;
+  height: 23px;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #242635;
+}
+
+.Projects {
+  width: 55px;
+  height: 23px;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #242635;
+}
+
+.Contacts {
+  width: 60px;
+  height: 23px;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #242635;
+}
+
+/* FIRST PARAGRAPH */
+.Fusce-vehicula-dolor {
+  width: 392px;
+  height: 90px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+}
+
+.grid-item3 {
+    grid-column: 1;
+    margin-top: -55px;
+    margin-left: 16px;
+    margin-bottom: 25px;
+}
+
+/* LEARN MORE BUTTON HERO */
+.Learn-More {
+  width: 81px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #472f35;
+  cursor: pointer;
+}
+
+.Learn-More:hover {
+    margin-left: -30px;
+}
+
+/* OVAL SHAPES */
+.Oval-Copy-2 {
+  width: 10px;
+  height: 10px;
+  background-color: #bb9e7b;
+  border-radius: 50%;
+}
+
+.grid-item-oval-copy-2 {
+  grid-column: 2;
+  margin-left: 115px;
+  margin-top: 190px;
+}
+
+.Oval-Copy {
+  width: 10px;
+  height: 10px;
+  background-color: #e6ddc9;
+  border-radius: 50%;
+}
+
+.grid-item-oval-copy {
+  grid-column: 2;
+  margin-left: 115px;
+  margin-top: 18px;
+}
+
+/* LEARN MORE BUTTON */
+.grid-item4 {
+    grid-column: 1;
+    margin-left: 18px;
+    position: relative;
+    z-index: 9999;
+}
+
+.grid-item-oval-2 {
+    grid-column: 1;
+    position: absolute;
+    margin-top: 335px;
+    z-index: 1;
+}
+
+.Oval-2 {
+  width: 40px;
+  height: 40px;
+  background-color: #e7d2a8;
+  border-radius: 50%;
+}
+
+/* SOME CALL US HEADING */
+.grid-item-Some-Call-Us {
+    grid-column: 1;
+    margin-left: 120px;
+    display: none;
+}
+.Some-call-us-rug-obs {
+  width: 424px;
+  height: 150px;
+  font-family: NotoSerifTC;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  color: #7f4821;
+}
+
+.grid-item-Second-para {
+    grid-column: 3;
+    margin-top: 10px;
+    display: none;
+}
+
+.Lorem-ipsum-dolor-sit {
+  width: 419px;
+  height: 210px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+}
+
+/* HIDDEN PARAGRAPHS */
+.grid-item-Third-Para {
+    grid-column: 3;
+    margin-left: -12px;
+    display: none;
+}
+
+.-Praesent-porttitor {
+  width: 419px;
+  height: 150px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+}
+
+.grid-item-Fourth-Para {
+    grid-column: 3;
+    display: none;
+    
+}
+
+.Lorem-ipsum-dolor-sit-2 {
+  width: 419px;
+  height: 90px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+}
+
+/* SHOW LESS BUTTON */
+.grid-item-Show-Less {
+    grid-column: 3;
+    margin-top: 70px;
+    margin-left: -30px;
+    display: none;
+}
+.Show-Less {
+  width: 77px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #472f35;
+  cursor: pointer;
+}
+
+/* EVERY JOURNEY BEGINS HEADING */
+.Every-journey-begins {
+  width: 393px;
+  height: 100px;
+  font-family: 'Noto Serif TC';
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  color: #7f4821;
+}
+
+.grid-item5 {
+    grid-column: 2;
+    margin-left: 165px;
+    margin-top: 114px;
+}
+
+/* STORY IMAGES */
+.image-story-1 {
+  width: 266px;
+  height: 266px;
+  object-fit: contain;
+}
+
+.grid-item6 {
+    grid-column: 1;
+    margin-top: 2px;
+    margin-left: 90px;
+}
+
+.image-story-2 {
+  width: 429px;
+  height: 473px;
+  object-fit: contain;
+}
+
+.grid-item7{
+    grid-column: 2;
+    margin-left: 145px;
+    margin-top: 40px;
+}
+
+.image-story-3 {
+  width: 211px;
+  height: 249px;
+  object-fit: contain;
+}
+
+.grid-item8 {
+    grid-column: 2;
+    margin-top: -100px;
+}
+
+
+.Lorem-ipsum-dolor-si {
+  width: 419px;
+  height: 150px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+}
+
+/* RESIZE PARAGRAPHS */
+.size {
+    
+}
+
+/* STORY TEXT */
+.grid-item9 {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+/* SMALL OVALS */
+.Oval-2-Copy {
+  width: 40px;
+  height: 40px;
+  background-color: #e7d2a8;
+  border-radius: 50%;
+}
+
+.grid-item-oval-2-copy {
+    grid-column: 3;
+    margin-top: 120.5%;
+    margin-left: 41.55%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* STORY LEARN MORE BUTTON */
+.grid-item10 {
+    grid-column: 3;
+    margin-top: 80px;
+    position: relative;
+    z-index: 9999;
+}
+
+.Learn-More-2 {
+  width: 81px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #472f35;
+  cursor: pointer;
+}
+
+.Learn-More-2:hover {
+    margin-left: -30px;
+}
+
+/* RUGS FILTER HEADING */
+.Rugs-we-think-you-wi {
+  width: 293px;
+  height: 100px;
+  font-family: 'Noto Serif TC';
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  color: #c3764c;
+}
+
+.grid-item11 {
+    grid-column: 2;
+    margin-top: 150px;
+}
+
+/* FILTER SECTION */
+.Filter {
+  width: 71px;
+  height: 30px;
+  font-family: NotoSerifTC;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #c3764c;
+}
+
+.grid-item12 {
+    grid-column: 1;
+    margin-top: 20px;
+}
+
+.grid-item12:after {
+    display: block;
+    height: 1px;
+    background-color: #979797;
+    content: " ";
+    width: 178px;
+    margin-top: -15px;
+
+}
+
+.Line {
+  width: 14.3px;
+  height: 1.4px;
+  transform: rotate(-90deg);
+}
+
+/* DROPDOWN */
+#Brands-dropdown {
+    display: none;
+}
+
+.dropdown-content li {
+    margin-top: 2px;
+    margin-left: -40px;
+    
+}
+
+.dropdown-content li a img{
+    margin-right: 8px;
+}
+
+.Ted-Baker-Woken-Fabr {
+  width: 171px;
+  height: 276px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  color: #92939a;
+  list-style-type: none;
+}
+
+.Ted-Baker-Woken-Fabr .text-style-1 {
+  font-weight: bold;
+  color: #545561;
+}
+
+/* RUGS FILTER OVERLAY */
+.Mask {
+  width: 276px;
+  height: 408px;
+  background-image: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0), #000000);
+  margin-top: -412px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+
+}
+/* OVERLAY RESIZE */
+.mask-margin {
+    
+}
+/* RUGS FILTER INFORMATION */
+.grid-item-rug-info {
+    grid-column: 4;
+    margin-top: -259px;
+    margin-left: 25px;
+    position: relative;
+    z-index: 2;
+    display: none;
+}
+/* RESIZE INFORMATION ON DROPDOWN */
+.margin-copy-2 {
+    margin-top: -30px;
+}
+
+.Hand-Knotted-Wool-RF {
+  width: 241px;
+  height: 216px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Rectangle-17-Copy-4 {
+  width: 276px;
+  height: 7px;
+  background-color: #000000;
+}
+
+.filter-rugs-1 {
+  width: 276px;
+  height: 408px;
+  object-fit: contain;
+}
+/* RESIZE NAME ON DROPDOWN */
+.margin {
+    margin-top: -307px;
+}
+/* RESIZE COLLECTION ON DROPDOWN */
+.margin-copy {
+    margin-top: -25px;
+}
+/* RESIZE ON DROPDOWN */
+.margin-sm {
+    
+}
+
+.margin-copy-3 {
+    
+}
+
+.margin-copy-4 {
+    
+}
+
+.margin-sm-copy {
+    
+}
+
+.margin-sm-hover {
+    
+}
+
+.margin-sm-bele {
+    
+}
+
+.margin-sm-royal {
+    
+}
+
+.margin-sm-makoti {
+    
+}
+
+.underline-margin {
+    
+}
+
+/* RUGS FILTER IMAGES */
+.grid-item15 {
+    grid-column: 2;
+    margin-top: -110px;
+}
+
+.filter-rugs-2 {
+  width: 276px;
+  height: 408px;
+  object-fit: contain;
+}
+
+.grid-item16 {
+    grid-column: 3;
+    margin-top: -110px;
+}
+
+.filter-rugs-3 {
+  width: 276px;
+  height: 408px;
+  object-fit: contain;
+}
+
+.grid-item17 {
+    grid-column: 4;
+    margin-top: -110px;
+}
+/* FILTER OPTIONS */
+.Brand {
+  width: 71px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+}
+
+.arrow-1 {
+  width: 15px;
+  height: 11px;
+  object-fit: contain;
+  margin-left: 115px;
+  cursor: pointer;
+}
+
+.grid-item-Brands {
+    grid-column: 1;
+    margin-top: 4px;
+}
+
+.grid-item-Brands:after {
+    display: block;
+    height: 1px;
+    background-color: #979797;
+    content: " ";
+    width: 178px;
+    margin-top: 5px;
+
+}
+
+.Colour {
+  width: 71px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+}
+
+.arrow-2 {
+  width: 15px;
+  height: 11px;
+  object-fit: contain;
+  margin-left: 109px;
+}
+
+.grid-item-Colour {
+    grid-column: 1;
+    margin-top: 4px;
+}
+
+.grid-item-Colour:after {
+    display: block;
+    height: 1px;
+    background-color: #979797;
+    content: " ";
+    width: 178px;
+    margin-top: 5px;
+
+}
+
+.Size {
+  width: 71px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+}
+
+.arrow-3 {
+  width: 15px;
+  height: 11px;
+  object-fit: contain;
+  margin-left: 129px;
+}
+
+.grid-item-Size {
+    grid-column: 1;
+    margin-top: 4px;
+}
+
+.grid-item-Size:after {
+    display: block;
+    height: 1px;
+    background-color: #979797;
+    content: " ";
+    width: 178px;
+    margin-top: 5px;
+
+}
+/* RUGS FILTER NAME + COLLECTIONS*/
+.NDEBELE {
+  width: 100px;
+  height: 20px;
+  font-family: 'Noto Serif TC';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  color: #51525e;
+}
+
+.Voke-Collection {
+  width: 120px;
+  height: 20px;
+  font-family: 'Noto Serif TC';
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #51525e;
+}
+
+.grid-item-Ndebele {
+    grid-column: 2;
+    margin-left: 88px;
+  
+}
+
+.grid-item-Voke {
+    grid-column: 2;
+    margin-left: 78px;
+    margin-top: -30px;
+}
+
+.ROYALTY {
+  width: 98px;
+  height: 20px;
+  font-family: 'Noto Serif TC';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  color: #51525e;
+}
+
+.Woven-Collection {
+  width: 134px;
+  height: 20px;
+  font-family: 'Noto Serif TC';
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #51525e;
+}
+/* RESIZE */
+.grid-item-Royalty {
+        grid-column: 3;
+        margin-left: 89px;
+        margin-top: -58px;
+}
+
+.grid-item-Woven {
+        grid-column: 3;
+        margin-left: 72px;
+        margin-top: -48px;
+}
+
+.MAKOTI {
+  width: 89px;
+  height: 20px;
+  font-family: 'Noto Serif TC';
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.3px;
+  color: #51525e;
+}
+
+.Ekhaya-Collection {
+  width: 138px;
+  height: 20px;
+  font-family: 'Noto Serif TC';
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: 0.2px;
+  color: #51525e;
+}
+/* RESIZE */
+.grid-item-Makoti {
+        grid-column: 4;
+        margin-left: 100px;
+        margin-top: -80px;
+}
+
+.grid-item-Ekhaya {
+        grid-column: 4;
+        margin-left: 76px;
+        margin-top: -50px;
+}
+
+.grid-item-Rectangle-17-copy-4{
+    grid-column: 4;
+    margin-top: 20px;
+    display: none;
+}
+
+.Rectangle-17-Copy-4 {
+  width: 276px;
+  height: 7px;
+  background-color: #000000;
+}
+
+.Rectangle-16 {
+  width: 1165px;
+  height: 486px;
+  background-color: #595853;
+}
+/* WHY CHOOSE OUR RUGS SECTION */
+.grid-item-Rectangle-16 {
+    grid-column: 1;
+    margin-left: 147px;
+    margin-top: 174px;
+}
+
+.rug-image-1 {
+  width: 566px;
+  height: 409px;
+  object-fit: contain;
+  margin-top: 39px;
+  margin-left: -146px;
+}
+
+.Why-choose-our-beaut {
+  width: 334px;
+  height: 100px;
+  font-family: 'Noto Serif TC';
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  color: #e7d2a8;
+}
+
+.grid-item-Why-Our-Rugs {
+    grid-column: 3;
+    margin-left: 93px;
+    margin-top: 210px;
+    
+}
+
+.Why-Choose-Us-Para {
+  width: 419px;
+  height: 90px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #f9f7ea;
+}
+
+.grid-item-Why-Para {
+    grid-column: 3;
+    margin-top: -300px;
+    margin-left: 93px;
+}
+
+.Fast-Delivery {
+  width: 124px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #f9f7ea;
+  margin-bottom: 25px;
+}
+
+.tick-icon-1 {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 9px;
+
+}
+
+.grid-item-Fast-Affordable {
+    grid-column: 3;
+    margin-left: 93px;
+    margin-top: -180px;
+}
+
+.Affordable-Price {
+  width: 149px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #f9f7ea;
+}
+
+.tick-icon-3 {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 9px;
+}
+
+.grid-item-Quality-Handmade {
+    grid-column: 4;
+    margin-left: 38px;
+    margin-top: -180px;
+}
+
+.High-Quality {
+  width: 120px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #f9f7ea;
+  margin-bottom: 25px;
+}
+
+.Handmade {
+  width: 112px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #f9f7ea;
+}
+
+.tick-icon-2 {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 9px;
+}
+
+.tick-icon-4 {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 9px;
+}
+/* BLOGS SECTION */
+.grid-item-Our-Thoughts {
+    grid-column: 2;
+    margin-top: 194px;
+    margin-left: 145px;
+}
+
+.Our-thoughts {
+  width: 275px;
+  height: 50px;
+  font-family: 'Noto Serif TC';
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #595853;
+}
+
+.blog-1 {
+  width: 361px;
+  height: 276px;
+  object-fit: contain;
+}
+
+.grid-item-blog1 {
+    grid-column: 1;
+    margin-top: 70px;
+}
+
+.blog-2 {
+  width: 362px;
+  height: 276px;
+  object-fit: contain;
+}
+
+.grid-item-blog2 {
+    grid-column: 2;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.blog-3 {
+  width: 361px;
+  height: 276px;
+  object-fit: contain;
+}
+
+.grid-item-blog3 {
+    grid-column: 3;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+/* BLOGS DARK OVERLAY */
+.overlay {
+  width: 361px;
+  height: 276px;
+  background-image: radial-gradient(circle at 0 4%, rgba(0, 0, 0, 0.01), #000000);
+  position: absolute;
+  z-index: 1;
+  margin-top: -280px;
+  display: none;
+}
+/* BLOGS BUTTON */
+.grid-item-blog-button {
+    grid-column: 4;
+    margin-left: 175px;
+    margin-top: 300px;
+    position: relative;
+    z-index: 2;
+    display: none;
+    cursor: pointer;
+}
+
+.Read-Article {
+  width: 75px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-item-Rectangle-17-copy-3 {
+    grid-column: 4;
+    margin-top: 200px;
+    margin-left: -88px;
+    display: none;
+}
+
+.Rectangle-17-Copy-3 {
+  width: 361px;
+  height: 7px;
+  background-color: #000000;
+}
+
+.Rectangle-17 {
+  width: 89px;
+  height: 22px;
+  background-color: #000000;
+}
+
+.grid-item-Rectangle-17 {
+    grid-column: 1;
+    margin-top: -30px;
+}
+
+.PATTERN {
+  width: 63px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 12px;
+}
+
+.Rectangle-17-Copy {
+  width: 89px;
+  height: 22px;
+  background-color: #000000;
+}
+
+.TEXTURE {
+  width: 61px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 12px;
+  text-align: center;
+}
+
+.grid-item-Rectangle-17-Copy {
+    grid-column: 2;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+.Rectangle-17-Copy-2 {
+  width: 89px;
+  height: 22px;
+  background-color: #000000;
+}
+
+.PATTERN-Copy-2 {
+  width: 63px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 12px;
+  text-align: center;
+}
+
+.grid-item-Rectangle-17-Copy-2{
+    grid-column: 3;
+    margin-left: 200px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+}
+
+/* BLOG TEXT */
+.grid-item-blog1-text {
+    grid-column: 1;
+    margin-top: 17px;
+}
+
+.Lorem-ipsum-dolor-si-Copy-3 {
+  width: 361px;
+  height: 90px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+  margin-top: -7px;
+}
+
+.-JAN-2019 {
+  width: 81px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.grid-item-blog2-text {
+    grid-column: 2;
+    margin-left: 100px;
+    margin-top: 17px;
+}
+
+.-JAN-2019-Copy {
+  width: 81px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.Lorem-ipsum-dolor-si-Copy {
+  width: 361px;
+  height: 90px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+  margin-top: -7px;
+}
+
+.grid-item-blog3-text {
+    grid-column: 3;
+    margin-left: 200px;
+    margin-top: 17px;
+}
+
+.-JAN-2019-Copy-2 {
+  width: 81px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.Lorem-ipsum-dolor-si-Copy-2 {
+  width: 361px;
+  height: 90px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+  margin-top: -7px;
+}
+/* INSTAGRAM SECTION */
+.instagram-image {
+  width: 1440px;
+  height: 288px;
+  object-fit: contain;
+}
+
+.grid-item-instagram-image {
+    grid-column: 1;
+    margin-top: 187px;
+    margin-left: -133px;
+    width: 100%;
+}
+
+.FOLLOW-US-ON-INSTAGR {
+  width: 367px;
+  height: 30px;
+  font-family: 'Noto Serif TC';
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.grid-item-Instagram-Caption {
+    grid-column: 2;
+    z-index: 9999;
+    margin-top: 292px;
+    margin-left: 112px;
+}
+/* TOGGLE CAPTION */
+.grid-item-Instagram-Caption #Follow-us {
+    display: inline;
+}
+
+.grid-item-Instagram-Caption:hover #Follow-us {
+    display: none;
+}
+
+.grid-item-Instagram-Caption .oakrugs {
+    display: none;
+}
+
+.grid-item-Instagram-Caption:hover .oakrugs {
+    display: inline;
+    margin-left: 122px;
+}
+
+.oakrugs {
+  width: 127px;
+  height: 30px;
+  font-family: 'Noto Serif TC';
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+/* FOOTER SECTION */
+/* FOOTER LOGO */
+.logo-footer {
+  width: 201px;
+  height: 151px;
+  object-fit: contain;
+  margin-left: 95px;
+}
+
+.grid-item-footer {
+    grid-column: 1;
+    margin-left: -132px;
+    margin-top: -5px;
+}
+
+.Rectangle-22 {
+  width: 1440px;
+  height: 164px;
+  background-color: #f9f7ea;
+}
+
+.-Oak-Pty-Ltd {
+  width: 419px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.31;
+  letter-spacing: normal;
+  color: rgba(36, 38, 53, 0.8);
+}
+
+.grid-item-Oak-Pty-Ltd {
+    grid-column: 1;
+    margin-left: 160px;
+    margin-top: -115px;
+    
+}
+
+.Stay-in-touch {
+  width: 105px;
+  height: 30px;
+  font-family: 'Noto Serif TC';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: 0px;
+  color: #595853;
+}
+
+.grid-item-Stay-in-Touch {
+    grid-column: 3;
+    margin-top: -130px;
+}
+/* EMAIL */
+#email-textbox {
+  width: 280px;
+  height: 40px;
+  border: 1px solid #e7d2a8;
+
+}
+
+.grid-item-textbox {
+    grid-column: 3;
+    margin-left: 135px;
+    margin-top: -110px;
+}
+
+.Email {
+  width: 110px;
+  height: 25px;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  color: #242635;
+}
+
+.grid-item-email {
+    grid-column: 3;
+    margin-left: 151px;
+    margin-top: -134px;
+    display: none;
+}
+/* SUBSCRIBE BUTTON */
+.SUBSCRIBE {
+  width: 85px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #472f35;
+}
+
+.grid-item-button {
+    grid-column: 4;
+    margin-left: 180px;
+    margin-top: -105px;
+}
+
+.grid-item-button:after {
+    display: block;
+    height: 3px;
+    background-color: #e7d2a8;
+    content: " ";
+    width: 138px;
+    margin-left: -25px;
+}
+
+.btn-sub:hover {
+  width: 141px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #e7d2a8;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-left: -30px;
+}
